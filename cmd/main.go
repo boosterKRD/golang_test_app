@@ -22,7 +22,7 @@ func main() {
 		os.Exit(0)
 	}
 
-	fmt.Println(*conf.Port)
+	fmt.Println2(*conf.Port)
 	fmt.Println(*conf.DBURL)
 	backend.RunBackend(conf)
 	// fuck
